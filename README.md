@@ -9,12 +9,12 @@ virtualenv -ppython3 env
 pip install -r requirements.txt
 ```
 
-* [Pelican docs](https://docs.getpelican.com/en/stable/install.html)
+* [Pelican docs](https://docs.getpelican.com/en/3.7.1/install.html)
 
 ## Updating
 
 ```
-
+cd planet/ && make
 ```
 
 ## Feeds in this planet

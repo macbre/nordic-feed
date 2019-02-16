@@ -32,5 +32,27 @@ SOCIAL = (
 
 DEFAULT_PAGINATION = 10
 
+# RSS planet
+PLUGINS = [
+	'pelican_planet',
+]
+
+PLANET_FEEDS = {
+	"Farerskie kadry": "https://farerskiekadry.pl/feed",
+	"Nordic Talking": "https://nordic-talking.pl/feed/",
+	"poFIKAsz?": "https://pofikasz.pl/feed/",
+}
+
+PLANET_TEMPLATE = 'planet.html.tmpl'
+PLANET_PAGE = '../docs/index.html'
+
+# Polish dates
+
+# On Unix/Linux
+DATE_FORMATS = {
+    'en': ('en_US','%a, %d %b %Y'),
+    'pl': ('pl_PL.utf8','%m %d %Y'),
+}
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
