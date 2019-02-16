@@ -20,5 +20,7 @@ cd planet/ && make
 ## Feeds in this planet
 
 * [Farerskie kadry](https://farerskiekadry.pl/feed)
+* [IceStory](http://icestory.pl/feed/)
 * [Nordic Talking](https://nordic-talking.pl/feed/)
+* [Utulę Thule](https://utulethule.wordpress.com/feed/)
 * [poFIKAsz?](https://pofikasz.pl/feed/)

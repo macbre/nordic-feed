@@ -41,6 +41,8 @@ PLANET_FEEDS = {
 	"Farerskie kadry": "https://farerskiekadry.pl/feed",
 	"Nordic Talking": "https://nordic-talking.pl/feed/",
 	"poFIKAsz?": "https://pofikasz.pl/feed/",
+	"IceStory": "http://icestory.pl/feed/",
+	"Utulę Thule": "https://utulethule.wordpress.com/feed/",
 }
 
 PLANET_TEMPLATE = 'planet.html.tmpl'
