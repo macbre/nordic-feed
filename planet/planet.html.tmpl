@@ -38,7 +38,10 @@
 <div class="container">
 	<article itemscope itemtype="http://schema.org/BlogPosting">
 		<h3 itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><span itemprop="name">{{ article.feed_name | e }}</span></h3>
-		<h1><time itemprop="datePublished" content="{{ article.date | e }}"></time><a href="{{ article.link | e }}"  itemprop="headline">{{ article.title | e }}</a></h1>
+		<time itemprop="datePublished" content="{{ article.date | e }}">{{ article.date_iso }}</time>
+		<h1>
+			<a href="{{ article.link | e }}"  itemprop="headline">{{ article.title | e }}</a>
+		</h1>
 		<meta itemprop="author" content="{{ article.author | e }}">
 
 		<div itemprop="articleBody">{{ article.summary }}</div>

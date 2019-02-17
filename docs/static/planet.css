@@ -142,6 +142,8 @@ article h3 {
 	position: relative;
 	left: -25px;
 	font-weight: bold;
+	border-top: solid 3px #00000011;
+	padding-top: 15px;
 }
 
 article h3:before {
@@ -149,5 +151,12 @@ article h3:before {
 	position: absolute;
 	width: 100px;
 	border-top: solid 3px #00000033;
-	top: -20px;
+	top: -3px;
+}
+
+article time {
+	position: absolute;
+	right: 25px;
+	top: 20px;
+	color: #000000aa;
 }
