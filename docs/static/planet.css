@@ -1,10 +1,13 @@
 body,
 article h1,
 article h3 {
-	font-family: Vollkorn, sans-serif;
+	font-family: "Scope One", sans-serif;
 }
 
-footer, article {
+.hero h1,
+nav,
+article,
+footer {
 	font-family: "Josefin Sans";
 }
 
@@ -14,13 +17,14 @@ footer, article {
 	border-bottom: 5px solid #33C3F022;
 	color: #fff;
 	padding: 3em 0;
+	box-shadow: #33C3F0cc 0 0 25px;
 }
 
 .hero h1 {
-	font-family: "Josefin Sans";
 	font-weight: normal;
 	font-size: 4em;
-	text-decoration: underline;
+	border-bottom: solid 3px #ffffffaa;
+	display: inline-block;
 }
 
 .hero h2 {
@@ -33,36 +37,33 @@ footer, article {
 	background: #33C3F016;
 	color: #145c73;
 	padding: 2em 0;
-	font-size: 1.5em;
-	letter-spacing: -1px;
+	font-size: 1.75em;
+	text-align: center;
 }
 
 .welcome p {
 	margin: 0;
+	line-height: 2em;
 }
 
 .welcome em {
 	font-style: normal;
-	background: #33C3F0ff;
-	color: #fff;
-	display: inline-block;
-	padding: 0.1em 0.3em;
+	font-weight: bold;
+	border-bottom: solid 3px #145c73aa;
 }
 
 footer {
 	background-color: #33C3F016;
 	color: #000000cc;
-	font-family: monospace;
-	font-size: 1.2em;
 	padding: 4em 0;
 }
 
 /* nav */
 nav {
-	font-family: "Josefin Sans";
 	margin: 2em 0 0 0;
 	border-top: 2px solid #33C3F066;
-	padding-top: 2em
+	padding-top: 2em;
+	letter-spacing: -1px;
 }
 
 nav ul {
