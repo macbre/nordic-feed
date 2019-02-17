@@ -23,13 +23,19 @@
 {% for article in articles %}
 <div class="container">
 	<article itemscope itemtype="http://schema.org/BlogPosting">
-		<h2><time itemprop="datePublished" content="{{ article.date }}"></time><a href="{{ article.link }}"  itemprop="headline">{{ article.title }}</a></h2>
-		<h3>{{ article.feed_name }}</h3>
+		<h2><time itemprop="datePublished" content="{{ article.date | e }}"></time><a href="{{ article.link | e }}"  itemprop="headline">{{ article.title | e }}</a></h2>
+		<h3 itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><span itemprop="name">{{ article.feed_name | e }}</span></h3>
+		<meta itemprop="author" content="{{ article.author | e }}">
 
 		<div itemprop="articleBody">{{ article.summary }}</div>
 	</article>
 </div>
 
 {% endfor %}
+
+<footer>
+	<div class="container">Całość napędza zespół w składzie <a href="https://www.python.org/">Python</a>, <a href="https://docs.getpelican.com/en/3.7.1/install.html">Pelican</a> i <a href="https://pypi.org/project/pelican-planet/">Pelican Planet</a> | <a href="https://github.com/macbre/nordic-feed">GitHub</a></div>
+</footer>
+
 </body>
 </html>

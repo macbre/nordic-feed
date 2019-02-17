@@ -3,7 +3,7 @@ h2, h3 {
 	font-family: Vollkorn, sans-serif;
 }
 
-article, p {
+footer, article, p {
 	font-family: "Josefin Sans";
 }
 
@@ -25,6 +25,14 @@ article, p {
 	font-weight: normal;
 	font-size: 2em;
 	padding-left: 1em;
+}
+
+footer {
+	background-color: #33C3F016;
+	color: #000000cc;
+	font-family: monospace;
+	font-size: 1.2em;
+	padding: 4em 0;
 }
 
 article {
