@@ -144,6 +144,7 @@ article h3 {
 	font-weight: bold;
 	border-top: solid 3px #00000011;
 	padding-top: 15px;
+	padding-right: 100px;
 }
 
 article h3:before {
