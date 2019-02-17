@@ -23,6 +23,12 @@
 <div class="welcome">
 	<div class="container">
 		<p>Naszym celem jest <em>zebranie w jednym miejscu</em> najnowszych wpisów z <em>polskich blogów</em> poświęconych szeroko rozumianej <em>tematyce nordyckiej</em>.</p>
+
+		<nav><ul>
+{% for name, url in feeds %}
+			<li><a href="{{ url | e }}" target="_blank">{{ name | e }}</a></li>
+{% endfor %}
+		</ul></nav>
 	</div>
 </div>
 

@@ -17,6 +17,7 @@ footer, article {
 }
 
 .hero h1 {
+	font-family: "Josefin Sans";
 	font-weight: normal;
 	font-size: 4em;
 	text-decoration: underline;
@@ -54,6 +55,34 @@ footer {
 	font-family: monospace;
 	font-size: 1.2em;
 	padding: 4em 0;
+}
+
+/* nav */
+nav {
+	font-family: "Josefin Sans";
+	margin: 2em 0 0 0;
+	border-top: 2px solid #33C3F066;
+	padding-top: 2em
+}
+
+nav ul {
+	margin: 0;
+	list-style: none;
+	line-height: 2em;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 0.75em 0 0;
+	line-height: 1.75em;
+}
+
+nav a {
+	background: #145c73;
+	color: #ffffffcc;
+	display: inline-block;
+	padding: 0 .5em;
+	text-decoration: none;
 }
 
 /* article */

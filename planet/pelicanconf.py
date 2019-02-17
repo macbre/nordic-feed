@@ -57,7 +57,11 @@ PLANET_PAGE = '../docs/index.html'
 PLANET_MAX_ARTICLES = 50
 PLANET_MAX_ARTICLES_PER_FEED = 5
 
-import logging; logging.basicConfig(level=logging.INFO)
+# set up logging
+import logging; logging.basicConfig(level=logging.DEBUG)
+
+for name, url in PLANET_FEEDS.items():
+	print('* [{}]({})'.format(name, url))
 
 # Polish dates
 
