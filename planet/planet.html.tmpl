@@ -13,17 +13,23 @@
 </head>
 
 <body>
-<div class="section hero">
+<div class="hero">
 	<div class="container">
 		<h1>Nordycka Planeta</h1>
 		<h2>Polskie blogi o Północy w jednym miejscu</h2>
 	</div>
 </div>
 
+<div class="welcome">
+	<div class="container">
+		<p>Naszym celem jest <em>zebranie w jednym miejscu</em> najnowszych wpisów z <em>polskich blogów</em> poświęconych szeroko rozumianej <em>tematyce nordyckiej</em>.</p>
+	</div>
+</div>
+
 {% for article in articles %}
 <div class="container">
 	<article itemscope itemtype="http://schema.org/BlogPosting">
-		<h2><time itemprop="datePublished" content="{{ article.date | e }}"></time><a href="{{ article.link | e }}"  itemprop="headline">{{ article.title | e }}</a></h2>
+		<h1><time itemprop="datePublished" content="{{ article.date | e }}"></time><a href="{{ article.link | e }}"  itemprop="headline">{{ article.title | e }}</a></h1>
 		<h3 itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><span itemprop="name">{{ article.feed_name | e }}</span></h3>
 		<meta itemprop="author" content="{{ article.author | e }}">
 

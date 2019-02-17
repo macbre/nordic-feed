@@ -1,18 +1,19 @@
 body,
-h2, h3 {
+article h1,
+article h3 {
 	font-family: Vollkorn, sans-serif;
 }
 
-footer, article, p {
+footer, article {
 	font-family: "Josefin Sans";
 }
 
 /* spacing */
 .hero {
-	background: #33C3F0ff;
+	background: #33C3F0;
 	border-bottom: 5px solid #33C3F022;
 	color: #fff;
-	padding: 5em 0;
+	padding: 3em 0;
 }
 
 .hero h1 {
@@ -27,6 +28,26 @@ footer, article, p {
 	padding-left: 1em;
 }
 
+.welcome {
+	background: #33C3F016;
+	color: #145c73;
+	padding: 2em 0;
+	font-size: 1.5em;
+	letter-spacing: -1px;
+}
+
+.welcome p {
+	margin: 0;
+}
+
+.welcome em {
+	font-style: normal;
+	background: #33C3F0ff;
+	color: #fff;
+	display: inline-block;
+	padding: 0.1em 0.3em;
+}
+
 footer {
 	background-color: #33C3F016;
 	color: #000000cc;
@@ -35,6 +56,7 @@ footer {
 	padding: 4em 0;
 }
 
+/* article */
 article {
 	margin: 5em 0;
 }
@@ -59,12 +81,12 @@ article div:after {
 	background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
-h2 {
+article h1 {
 	font-size: 3.2em;
 	margin-bottom: 0.2em;
 }
 
-h3 {
+article h3 {
 	color: #000000aa;
 	font-size: 1.5em;
 	font-weight: 400;
