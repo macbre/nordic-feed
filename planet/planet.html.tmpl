@@ -1,6 +1,9 @@
 <html lang="pl">
 <head>
-	<title>Nordycka Planeta | Polskie blogi o Północy w jednym miejscu!</title>
+	<title>Nordycka Planeta | Polskie blogi o Północy w jednym miejscu</title>
+
+	<meta property="og:title" content="Nordycka Planeta" />
+	<meta property="og:description" content="Polskie blogi o Północy w jednym miejscu" />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,9 +28,8 @@
 		<p>Naszym celem jest <em>zebranie w jednym miejscu</em> najnowszych wpisów z <em>polskich blogów</em> poświęconych szeroko rozumianej <em>tematyce nordyckiej</em>.</p>
 
 		<nav><ul>
-{% for name, url in feeds %}
-			<li><a href="{{ url | e }}" target="_blank">{{ name | e }}</a></li>
-{% endfor %}
+{% for name, _, url in feeds %}
+			<li><a href="{{ url | e }}" target="_blank">{{ name | e }}</a></li>{% endfor %}
 		</ul></nav>
 	</div>
 </div>
@@ -42,7 +44,6 @@
 		<div itemprop="articleBody">{{ article.summary }}</div>
 	</article>
 </div>
-
 {% endfor %}
 
 <footer>
