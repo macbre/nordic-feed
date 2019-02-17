@@ -6,7 +6,6 @@ article h3 {
 
 .hero h1,
 nav,
-article,
 footer {
 	font-family: "Josefin Sans";
 }
@@ -114,8 +113,10 @@ article {
 }
 
 article div {
-	font-size: 1.2em;
+	font-size: 1.1em;
+	line-height: 2em;
 
+	/* more gradient */
 	max-height: 550px;
 	overflow: hidden;
 	position: relative;
