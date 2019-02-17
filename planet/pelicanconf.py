@@ -39,10 +39,11 @@ PLUGINS = [
 
 PLANET_FEEDS = {
 	"Farerskie kadry": "https://farerskiekadry.pl/feed",
-	"Nordic Talking": "https://nordic-talking.pl/feed/",
-	"poFIKAsz?": "https://pofikasz.pl/feed/",
 	"IceStory": "http://icestory.pl/feed/",
+	"Nordic Talking": "https://nordic-talking.pl/feed/",
+	"SKANDIS": "https://blogvigdis.wordpress.com/feed/",
 	"Utulę Thule": "https://utulethule.wordpress.com/feed/",
+	"poFIKAsz?": "https://pofikasz.pl/feed/",
 }
 
 PLANET_TEMPLATE = 'planet.html.tmpl'

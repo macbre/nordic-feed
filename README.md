@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ## Updating
 
 ```
-cd planet/ && make
+make
 ```
 
 ## Feeds in this planet
@@ -22,5 +22,6 @@ cd planet/ && make
 * [Farerskie kadry](https://farerskiekadry.pl/feed)
 * [IceStory](http://icestory.pl/feed/)
 * [Nordic Talking](https://nordic-talking.pl/feed/)
+* [SKANDIS](https://blogvigdis.wordpress.com/feed/)
 * [Utulę Thule](https://utulethule.wordpress.com/feed/)
 * [poFIKAsz?](https://pofikasz.pl/feed/)

@@ -1,3 +1,3 @@
 init:
-	pelican -s planet/pelicanconf.py
-
+	rm -r docs/index.html || true
+	(cd planet && pelican -s pelicanconf.py)
