@@ -1,11 +1,35 @@
-<title>Nordycka Planeta | Polskie blogi o Północy w jednym miejscu!</title>
+<html lang="pl">
+<head>
+	<title>Nordycka Planeta | Polskie blogi o Północy w jednym miejscu!</title>
 
-<h1>Nordycka Planeta</h1>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='https://fonts.googleapis.com/css?family=Vollkorn:400,600|Josefin+Sans:400' rel='stylesheet' type='text/css'>
+
+	<!-- http://getskeleton.com/ -->
+	<link rel="stylesheet" href="static/normalize.css">
+	<link rel="stylesheet" href="static/skeleton.css">
+	<link rel="stylesheet" href="static/planet.css">
+</head>
+
+<body>
+<div class="section hero">
+	<div class="container">
+		<h1>Nordycka Planeta</h1>
+		<h2>Polskie blogi o Północy w jednym miejscu</h2>
+	</div>
+</div>
 
 {% for article in articles %}
-<h2><time datetime="{{ article.date }}"></time><a href="{{ article.link }}">{{ article.title }}</a></h2>
-<h3>{{ article.author }}</h3>
+<div class="container">
+	<article itemscope itemtype="http://schema.org/BlogPosting">
+		<h2><time itemprop="datePublished" content="{{ article.date }}"></time><a href="{{ article.link }}"  itemprop="headline">{{ article.title }}</a></h2>
+		<h3>{{ article.feed_name }}</h3>
 
-{{ article.summary }}
+		<div itemprop="articleBody">{{ article.summary }}</div>
+	</article>
+</div>
 
 {% endfor %}
+</body>
+</html>

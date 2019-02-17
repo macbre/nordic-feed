@@ -37,6 +37,7 @@ PLUGINS = [
 	'pelican_planet',
 ]
 
+# https://pypi.org/project/pelican-planet/
 PLANET_FEEDS = {
 	"Farerskie kadry": "https://farerskiekadry.pl/feed",
 	"IceStory": "http://icestory.pl/feed/",
@@ -48,6 +49,9 @@ PLANET_FEEDS = {
 
 PLANET_TEMPLATE = 'planet.html.tmpl'
 PLANET_PAGE = '../docs/index.html'
+
+PLANET_MAX_ARTICLES = 50
+PLANET_MAX_ARTICLES_PER_FEED = 5
 
 # Polish dates
 

@@ -1,0 +1,47 @@
+body,
+h2, h3 {
+	font-family: Vollkorn, sans-serif;
+}
+
+article, p {
+	font-family: "Josefin Sans";
+}
+
+/* spacing */
+.hero {
+	background: #33C3F0ff;
+	border-bottom: 5px solid #33C3F022;
+	color: #fff;
+	padding: 5em 0;
+}
+
+.hero h1 {
+	font-weight: normal;
+	font-size: 4em;
+	text-decoration: underline;
+}
+
+.hero h2 {
+	font-weight: normal;
+	font-size: 2em;
+	padding-left: 1em;
+}
+
+article {
+	margin: 5em 0;
+}
+
+article div {
+	font-size: 1.2em;
+}
+
+h2 {
+	font-size: 3.2em;
+	margin-bottom: 0.2em;
+}
+
+h3 {
+	color: #000000aa;
+	font-size: 1.5em;
+	font-weight: 400;
+}
