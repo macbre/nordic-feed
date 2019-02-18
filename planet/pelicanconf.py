@@ -40,6 +40,7 @@ PLUGINS = [
 # https://pypi.org/project/pelican-planet/
 PLANET_FEEDS = {
 	"Farerskie kadry": "https://farerskiekadry.pl/feed",
+	# "Fińskie smaki": "https://finskiesmaki.blogspot.com/feeds/posts/default?alt=rss",
 	"IceStory": "http://icestory.pl/feed/",
 	"Nordic Talking": "https://nordic-talking.pl/feed/",
 	"Nowa w Szwecji": "https://www.nowawszwecji.com/blog-feed.xml",
@@ -63,13 +64,3 @@ import logging; logging.basicConfig(level=logging.DEBUG)
 for name, url in PLANET_FEEDS.items():
 	print('* [{}]({})'.format(name, url))
 
-# Polish dates
-
-# On Unix/Linux
-DATE_FORMATS = {
-    'en': ('en_US','%a, %d %b %Y'),
-    'pl': ('pl_PL.utf8','%m %d %Y'),
-}
-
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
