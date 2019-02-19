@@ -1,2 +1,2 @@
 pelican==3.7.1
-pelican-planet==0.9.1
+git+git://github.com/macbre/pelican-planet@master#pelican-planet
