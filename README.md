@@ -20,6 +20,8 @@ make
 ## Feeds in this planet
 
 * [Farerskie kadry](https://farerskiekadry.pl/feed)
+* [Finolubna](https://finolubna.blogspot.com/feeds/posts/default?alt=rss)
+* [Humla](https://humla.eu/feed/)
 * [IceStory](http://icestory.pl/feed/)
 * [Nordic Talking](https://nordic-talking.pl/feed/)
 * [Nowa w Szwecji](https://www.nowawszwecji.com/blog-feed.xml)
@@ -27,6 +29,6 @@ make
 * [Recenzentka - blog skandynawistki](http://recenzentka.blox.pl/rss2)
 * [SKANDIS](https://blogvigdis.wordpress.com/feed/)
 * [Szwecjoblog - blog o Szwecji](https://szwecjoblog.blogspot.com/feeds/posts/default?alt=rss)
+* [Trolltunga](https://www.trolltunga-norweski.com/feed.xml)
 * [Utulę Thule](https://utulethule.wordpress.com/feed/)
 * [poFIKAsz?](https://pofikasz.pl/feed/)
-
