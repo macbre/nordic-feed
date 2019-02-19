@@ -27,6 +27,7 @@ make
 1. [Gazela w Laponii](http://gazelawlaponii.pl/feed/)
 1. [Humla](https://humla.eu/feed/)
 1. [IceStory](http://icestory.pl/feed/)
+1. [Kierunek Dania](https://kierunekdania.pl/feed/)
 1. [Nordic Talking](https://nordic-talking.pl/feed/)
 1. [Norwegolożka](https://norwegolozka.com/feed/)
 1. [Nowa w Szwecji](https://www.nowawszwecji.com/blog-feed.xml)
