@@ -1,5 +1,8 @@
 # nordic-feed
-RSS feeds agregator aka planet for Nordic blogs in Polish.
+
+RSS feeds agregator aka planet for Nordic blogs in Polish using [a forked version of `planet-pelican` PyPI package](https://github.com/macbre/pelican-planet).
+
+Handles RSS 0.9x, RSS 1.0, RSS 2.0, CDF, Atom 0.3, and Atom 1.0 feeds.
 
 ## Setup
 
