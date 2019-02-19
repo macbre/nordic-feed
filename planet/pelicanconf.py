@@ -42,6 +42,7 @@ PLANET_FEEDS = {
 	"Farerskie kadry": "https://farerskiekadry.pl/feed",
 	"Finolubna": "https://finolubna.blogspot.com/feeds/posts/default?alt=rss",
 	# "Fińskie smaki": "https://finskiesmaki.blogspot.com/feeds/posts/default?alt=rss",
+	"Gazela w Laponii": "http://gazelawlaponii.pl/feed/",
 	"Humla": "https://humla.eu/feed/",
 	"IceStory": "http://icestory.pl/feed/",
 	"Nordic Talking": "https://nordic-talking.pl/feed/",
@@ -65,5 +66,5 @@ PLANET_MAX_ARTICLES_PER_FEED = 5
 import logging; logging.basicConfig(level=logging.DEBUG)
 
 for name, url in PLANET_FEEDS.items():
-	print('* [{}]({})'.format(name, url))
+	print('1. [{}]({})'.format(name, url))
 
