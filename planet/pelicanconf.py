@@ -50,6 +50,7 @@ PLANET_FEEDS = {
 	"Polskie gadanie o szwedzkich rzeczach": "http://polskiegadanieszwedzkierzeczy.pl/feed/",
 	"Recenzentka - blog skandynawistki": "http://recenzentka.blox.pl/rss2",
 	"SKANDIS": "https://blogvigdis.wordpress.com/feed/",
+	"Stacja Islandia": "http://www.stacjaislandia.pl/feed/",
 	"Szwecjoblog - blog o Szwecji": "https://szwecjoblog.blogspot.com/feeds/posts/default?alt=rss",
 	"Trolltunga": "https://www.trolltunga-norweski.com/feed.xml",
 	"Utulę Thule": "https://utulethule.wordpress.com/feed/",
