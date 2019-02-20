@@ -1,4 +1,6 @@
 #!/bin/bash
+git pull --rebase
+
 date
 source env/bin/activate
 make
