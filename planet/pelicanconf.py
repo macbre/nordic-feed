@@ -49,6 +49,7 @@ PLANET_FEEDS = {
 	"Nordic Talking": "https://nordic-talking.pl/feed/",
 	"Norwegolożka": "https://norwegolozka.com/feed/",
 	"Nowa w Szwecji": "https://www.nowawszwecji.com/blog-feed.xml",
+	"Pat i Norway": "http://patinorway.blogspot.com/feeds/posts/default?alt=rss",
 	"Polskie gadanie o szwedzkich rzeczach": "http://polskiegadanieszwedzkierzeczy.pl/feed/",
 	"Recenzentka - blog skandynawistki": "http://recenzentka.blox.pl/rss2",
 	"SKANDIS": "https://blogvigdis.wordpress.com/feed/",
