@@ -34,6 +34,7 @@ make
 1. [Pat i Norway](http://patinorway.blogspot.com/feeds/posts/default?alt=rss)
 1. [Polskie gadanie o szwedzkich rzeczach](http://polskiegadanieszwedzkierzeczy.pl/feed/)
 1. [Recenzentka - blog skandynawistki](http://recenzentka.blox.pl/rss2)
+1. [Renifer na emigracji](http://renifernaemigracji.pl/feed/)
 1. [SKANDIS](https://blogvigdis.wordpress.com/feed/)
 1. [Stacja Islandia](http://www.stacjaislandia.pl/feed/)
 1. [Szwecjoblog - blog o Szwecji](https://szwecjoblog.blogspot.com/feeds/posts/default?alt=rss)

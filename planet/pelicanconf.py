@@ -52,6 +52,7 @@ PLANET_FEEDS = {
 	"Pat i Norway": "http://patinorway.blogspot.com/feeds/posts/default?alt=rss",
 	"Polskie gadanie o szwedzkich rzeczach": "http://polskiegadanieszwedzkierzeczy.pl/feed/",
 	"Recenzentka - blog skandynawistki": "http://recenzentka.blox.pl/rss2",
+	"Renifer na emigracji": "http://renifernaemigracji.pl/feed/",
 	"SKANDIS": "https://blogvigdis.wordpress.com/feed/",
 	"Stacja Islandia": "http://www.stacjaislandia.pl/feed/",
 	"Szwecjoblog - blog o Szwecji": "https://szwecjoblog.blogspot.com/feeds/posts/default?alt=rss",
