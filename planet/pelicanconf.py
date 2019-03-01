@@ -46,6 +46,7 @@ PLANET_FEEDS = {
 	"Humla": "https://humla.eu/feed/",
 	"IceStory": "http://icestory.pl/feed/",
 	"Kierunek Dania": "https://kierunekdania.pl/feed/",
+	"Marchewkowa Skandynawia": "https://www.marchewkowaskandynawia.pl/feed/",
 	"Nordic Talking": "https://nordic-talking.pl/feed/",
 	"Norwegolożka": "https://norwegolozka.com/feed/",
 	"Nowa w Szwecji": "https://www.nowawszwecji.com/blog-feed.xml",
