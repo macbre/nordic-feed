@@ -56,6 +56,7 @@ PLANET_FEEDS = {
 	"SKANDIS": "https://blogvigdis.wordpress.com/feed/",
 	"Stacja Islandia": "http://www.stacjaislandia.pl/feed/",
 	"Szwecjoblog - blog o Szwecji": "https://szwecjoblog.blogspot.com/feeds/posts/default?alt=rss",
+	"Szwedzkie Ciekawostki": "https://szwedzkieciekawostki.blogspot.com/feeds/posts/default?alt=rss",
 	"Szwedzka półka": "https://www.szwedzkapolka.pl/feed",
 	"Trolltunga": "https://www.trolltunga-norweski.com/feed.xml",
 	"Utulę Thule": "https://utulethule.wordpress.com/feed/",

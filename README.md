@@ -38,6 +38,7 @@ make
 1. [SKANDIS](https://blogvigdis.wordpress.com/feed/)
 1. [Stacja Islandia](http://www.stacjaislandia.pl/feed/)
 1. [Szwecjoblog - blog o Szwecji](https://szwecjoblog.blogspot.com/feeds/posts/default?alt=rss)
+1. [Szwedzkie Ciekawostki](https://szwedzkieciekawostki.blogspot.com/feeds/posts/default?alt=rss)
 1. [Szwedzka półka](https://www.szwedzkapolka.pl/feed)
 1. [Trolltunga](https://www.trolltunga-norweski.com/feed.xml)
 1. [Utulę Thule](https://utulethule.wordpress.com/feed/)
