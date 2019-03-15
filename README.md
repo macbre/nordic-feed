@@ -22,6 +22,7 @@ make
 
 ## Feeds in this planet
 
+1. [Apetyt na Świat](https://www.apetytnaswiat.pl/feed/)
 1. [Farerskie kadry](https://farerskiekadry.pl/feed)
 1. [Finolubna](https://finolubna.blogspot.com/feeds/posts/default?alt=rss)
 1. [Gazela w Laponii](http://gazelawlaponii.pl/feed/)

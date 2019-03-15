@@ -39,6 +39,7 @@ PLUGINS = [
 
 # https://pypi.org/project/pelican-planet/
 PLANET_FEEDS = {
+	"Apetyt na Świat": "https://www.apetytnaswiat.pl/feed/",
 	"Farerskie kadry": "https://farerskiekadry.pl/feed",
 	"Finolubna": "https://finolubna.blogspot.com/feeds/posts/default?alt=rss",
 	# "Fińskie smaki": "https://finskiesmaki.blogspot.com/feeds/posts/default?alt=rss",
