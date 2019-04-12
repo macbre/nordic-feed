@@ -44,7 +44,7 @@ PLANET_FEEDS = {
 	"Finolubna": "https://finolubna.blogspot.com/feeds/posts/default?alt=rss",
 	# "Fińskie smaki": "https://finskiesmaki.blogspot.com/feeds/posts/default?alt=rss",
 	"Gazela w Laponii": "http://gazelawlaponii.pl/feed/",
-	"Humla": "https://humla.eu/feed/",
+	"Humla": "http://humla.online/feed/",
 	"IceStory": "http://icestory.pl/feed/",
 	"Kierunek Dania": "https://kierunekdania.pl/feed/",
 	"Marchewkowa Skandynawia": "https://www.marchewkowaskandynawia.pl/feed/",
