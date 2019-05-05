@@ -46,6 +46,7 @@ PLANET_FEEDS = {
 	"Gazela w Laponii": "http://gazelawlaponii.pl/feed/",
 	"IceStory": "http://icestory.pl/feed/",
 	"Kierunek Dania": "https://kierunekdania.pl/feed/",
+	"Kierunek Norwegia": "http://kieruneknorwegia.pl/feed/",
 	"Marchewkowa Skandynawia": "https://www.marchewkowaskandynawia.pl/feed/",
 	"Nordic Talking": "https://nordic-talking.pl/feed/",
 	"Norwegolożka": "https://norwegolozka.com/feed/",
