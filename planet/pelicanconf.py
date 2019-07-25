@@ -61,7 +61,7 @@ PLANET_FEEDS = {
 	"Szwedzkie Ciekawostki": "https://szwedzkieciekawostki.blogspot.com/feeds/posts/default?alt=rss",
 	"Szwedzka półka": "https://www.szwedzkapolka.pl/feed",
 	"Trolltunga": "https://www.trolltunga-norweski.com/feed.xml",
-	"Utulę Thule": "http://utulethule.pl/feed/",
+	"Utulę Thule": "https://utulethule.pl/feed/",
 	"poFIKAsz?": "https://pofikasz.pl/feed/",
 }
 
