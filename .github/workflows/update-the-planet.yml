@@ -40,5 +40,4 @@ jobs:
       run: |
         git diff
         git add docs
-        git commit -m 'Updating the Planet via GitHub Actions'
-        git push origin master
+        ( git commit -m 'Updating the Planet via GitHub Actions' && git push origin master ) || echo 'Nothing to commit'
