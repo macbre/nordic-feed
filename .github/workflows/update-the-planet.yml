@@ -38,6 +38,7 @@ jobs:
 
     - name: Commit changes
       run: |
-        git diff --exit-code && \
-        git add docs/ && \
-        git commit -m 'Updating the Planet via GitHub Actions' && git push origin master
+        git diff
+        git add docs
+        git commit -m 'Updating the Planet via GitHub Actions'
+        git push origin master
