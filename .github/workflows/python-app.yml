@@ -16,8 +16,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2-beta
-      with:
-        ref: master
 
     - name: Set up Python 3.8
       uses: actions/setup-python@v2
@@ -26,8 +24,8 @@ jobs:
 
     - name: Set up git config
       run: |
-        env | sort
         git status
+        git branch
 
         # https://github.com/actions/checkout#push-a-commit-using-the-built-in-token
         git config user.name "macbrebot"
