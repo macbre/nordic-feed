@@ -17,7 +17,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2-beta
       with:
-        ref: $GITHUB_HEAD_REF
+        ref: master
 
     - name: Set up Python 3.8
       uses: actions/setup-python@v2
@@ -29,6 +29,7 @@ jobs:
         env | sort
         git status
 
+        # https://github.com/actions/checkout#push-a-commit-using-the-built-in-token
         git config user.name "macbrebot"
         git config user.email "<51094006+macbrebot@users.noreply.github.com>"
 
@@ -42,4 +43,4 @@ jobs:
       run: |
         git diff
         git add docs/ && git commit -m 'Updating the Planet via GitHub Actions'
-        git push origin master
+        # git push origin master
