@@ -16,6 +16,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2-beta
+      with:
+        ref: $GITHUB_HEAD_REF
 
     - name: Set up Python 3.8
       uses: actions/setup-python@v2
@@ -24,9 +26,9 @@ jobs:
 
     - name: Set up git config
       run: |
-        env
+        env | sort
         git status
-        
+
         git config user.name "macbrebot"
         git config user.email "<51094006+macbrebot@users.noreply.github.com>"
 
