@@ -22,8 +22,9 @@ jobs:
       with:
         python-version: 3.8
 
-    - name: Set up git config
+    - name: Set up git repository
       run: |
+        git checkout master
         git status
         git branch
 
