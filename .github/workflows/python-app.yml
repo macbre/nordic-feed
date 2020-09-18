@@ -24,11 +24,11 @@ jobs:
 
     - name: Set up git config
       run: |
+        env
+        git status
+        
         git config user.name "macbrebot"
         git config user.email "<51094006+macbrebot@users.noreply.github.com>"
-
-        git config --list
-        git status
 
     - name: Install dependencies
       run: pip install -r requirements.txt
