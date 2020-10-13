@@ -45,4 +45,4 @@ make
 1. [Trolltunga](https://www.trolltunga-norweski.com/feed.xml)
 1. [Utulę Thule](http://utulethule.pl/feed/)
 1. [poFIKAsz?](https://pofikasz.pl/feed/)
-
+1. [Inspiration Movement](https://inspiration-movement.com/feed/)
