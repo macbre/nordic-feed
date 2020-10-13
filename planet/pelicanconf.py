@@ -60,6 +60,7 @@ PLANET_FEEDS = {
 	"Szwedzka półka": "https://www.szwedzkapolka.pl/feed",
 	"Utulę Thule": "https://utulethule.pl/feed/",
 	"poFIKAsz?": "https://pofikasz.pl/feed/",
+	"Inspiration Movement": "https://inspiration-movement.com/feed/",
 }
 
 PLANET_TEMPLATE = 'planet.html.tmpl'
