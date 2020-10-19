@@ -1,2 +1,1 @@
-pelican==4.0.1
-git+git://github.com/macbre/pelican-planet@master#pelican-planet
+git+git://github.com/macbre/pelican-planet@0.10.0#pelican-planet
