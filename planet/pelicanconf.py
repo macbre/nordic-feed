@@ -48,6 +48,7 @@ PLANET_FEEDS = {
 	"Kierunek Dania": "https://kierunekdania.pl/feed/",
 	"Kierunek Norwegia": "http://kieruneknorwegia.pl/feed/",
 	"Marchewkowa Skandynawia": "https://www.marchewkowaskandynawia.pl/feed/",
+	"NordSide.blog": "https://nordside.blog/feed/",
 	"Nordic Talking": "https://nordic-talking.pl/feed/",
 	"Norwegolożka": "https://norwegolozka.com/feed/",
 	"Nowa w Szwecji": "https://www.nowawszwecji.com/blog-feed.xml",
