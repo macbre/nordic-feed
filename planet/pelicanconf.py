@@ -44,7 +44,7 @@ PLANET_FEEDS = {
 	"Finolubna": "https://finolubna.blogspot.com/feeds/posts/default?alt=rss",
 	# "Fińskie smaki": "https://finskiesmaki.blogspot.com/feeds/posts/default?alt=rss",
 	"Gazela w Laponii": "http://gazelawlaponii.pl/feed/",
-	# "IceStory": "http://icestory.pl/feed/",  # no longer updated
+	"IceStory": "http://icestory.pl/feed/",  # no longer updated
 	"Kierunek Dania": "https://kierunekdania.pl/feed/",
 	"Kierunek Norwegia": "https://kieruneknorwegia.pl/feed/",
 	"Marchewkowa Skandynawia": "https://www.marchewkowaskandynawia.pl/feed/",
@@ -52,7 +52,7 @@ PLANET_FEEDS = {
 	"Nordic Talking": "https://nordic-talking.pl/feed/",
 	"Norwegolożka": "https://norwegolozka.com/feed/",
 	"Nowa w Szwecji": "https://www.nowawszwecji.com/blog-feed.xml",
-	# "Pat i Norway": "http://patinorway.blogspot.com/feeds/posts/default?alt=rss",
+	"Pat i Norway": "http://patinorway.blogspot.com/feeds/posts/default?alt=rss",
 	"SKANDIS": "https://blogvigdis.wordpress.com/feed/",
 	"Stacja Islandia": "http://www.stacjaislandia.pl/feed/",
 	"Szkice Nordyckie": "https://szkicenordyckie.pl/feed/",
