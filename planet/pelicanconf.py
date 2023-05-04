@@ -51,7 +51,6 @@ PLANET_FEEDS = {
 	"NordSide.blog": "https://nordside.blog/feed/",
 	"Nordic Talking": "https://nordic-talking.pl/feed/",
 	"Norwegolożka": "https://norwegolozka.com/feed/",
-	"Nowa w Szwecji": "https://www.nowawszwecji.com/blog-feed.xml",
 	"Pat i Norway": "http://patinorway.blogspot.com/feeds/posts/default?alt=rss",
 	"SKANDIS": "https://blogvigdis.wordpress.com/feed/",
 	"Stacja Islandia": "http://www.stacjaislandia.pl/feed/",
