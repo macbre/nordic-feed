@@ -31,7 +31,6 @@ make
 1. [Kierunek Norwegia](http://kieruneknorwegia.pl/feed/)
 1. [Marchewkowa Skandynawia](https://www.marchewkowaskandynawia.pl/feed/)
 1. [Nordic Talking](https://nordic-talking.pl/feed/)
-1. [Norwegolożka](https://norwegolozka.com/feed/)
 1. [Nowa w Szwecji](https://www.nowawszwecji.com/blog-feed.xml)
 1. [Pat i Norway](http://patinorway.blogspot.com/feeds/posts/default?alt=rss)
 1. [Polskie gadanie o szwedzkich rzeczach](http://polskiegadanieszwedzkierzeczy.pl/feed/)
