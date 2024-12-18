@@ -50,7 +50,6 @@ PLANET_FEEDS = {
 	"Marchewkowa Skandynawia": "https://www.marchewkowaskandynawia.pl/feed/",
 	"NordSide.blog": "https://nordside.blog/feed/",
 	"Nordic Talking": "https://nordic-talking.pl/feed/",
-	"Norwegolożka": "https://norwegolozka.com/feed/",
 	"Pat i Norway": "http://patinorway.blogspot.com/feeds/posts/default?alt=rss",
 	"SKANDIS": "https://blogvigdis.wordpress.com/feed/",
 	"Stacja Islandia": "http://www.stacjaislandia.pl/feed/",
