@@ -43,15 +43,14 @@ PLANET_FEEDS = {
 	"Farerskie kadry": "https://farerskiekadry.pl/feed",
 	"Farerskie szorty": "https://farerskiekadry.pl/szorty/feed",
 	"Finolubna": "https://finolubna.blogspot.com/feeds/posts/default?alt=rss",
+	"Føroyar - Wyspy Owcze pod lupą": "https://havnar.blogspot.com/feeds/posts/default?alt=rss",
 	# "Fińskie smaki": "https://finskiesmaki.blogspot.com/feeds/posts/default?alt=rss",
 	"Gazela w Laponii": "http://gazelawlaponii.pl/feed/",
 	"IceStory": "http://icestory.pl/feed/",  # no longer updated
-	"Kierunek Dania": "https://kierunekdania.pl/feed/",
 	"Kierunek Norwegia": "https://kieruneknorwegia.pl/feed/",
 	"Marchewkowa Skandynawia": "https://www.marchewkowaskandynawia.pl/feed/",
 	"NordSide.blog": "https://nordside.blog/feed/",
 	"Nordic Talking": "https://nordic-talking.pl/feed/",
-	"Pat i Norway": "http://patinorway.blogspot.com/feeds/posts/default?alt=rss",
 	"SKANDIS": "https://blogvigdis.wordpress.com/feed/",
 	"Stacja Islandia": "http://www.stacjaislandia.pl/feed/",
 	"Szkice Nordyckie": "https://szkicenordyckie.pl/feed/",
@@ -59,8 +58,6 @@ PLANET_FEEDS = {
 	"Szwedzkie Ciekawostki": "https://szwedzkieciekawostki.blogspot.com/feeds/posts/default?alt=rss",
 	"Szwedzka półka": "https://www.szwedzkapolka.pl/feed",
 	"Utulę Thule": "https://utulethule.pl/feed/",
-	"poFIKAsz?": "https://pofikasz.pl/feed/",
-	"Inspiration Movement": "https://inspiration-movement.com/feed/",
 }
 
 PLANET_TEMPLATE = 'planet.html.tmpl'
