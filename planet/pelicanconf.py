@@ -41,6 +41,7 @@ PLUGINS = [
 PLANET_FEEDS = {
 	"Apetyt na Świat": "https://www.apetytnaswiat.pl/feed/",
 	"Farerskie kadry": "https://farerskiekadry.pl/feed",
+	"Farerskie szorty": "https://farerskiekadry.pl/szorty/feed",
 	"Finolubna": "https://finolubna.blogspot.com/feeds/posts/default?alt=rss",
 	# "Fińskie smaki": "https://finskiesmaki.blogspot.com/feeds/posts/default?alt=rss",
 	"Gazela w Laponii": "http://gazelawlaponii.pl/feed/",
