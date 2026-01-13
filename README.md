@@ -30,7 +30,6 @@ make
 1. [Gazela w Laponii](http://gazelawlaponii.pl/feed/)
 1. [IceStory](http://icestory.pl/feed/)
 1. [Kierunek Norwegia](https://kieruneknorwegia.pl/feed/)
-1. [Marchewkowa Skandynawia](https://www.marchewkowaskandynawia.pl/feed/)
 1. [NordSide.blog](https://nordside.blog/feed/)
 1. [Nordic Talking](https://nordic-talking.pl/feed/)
 1. [SKANDIS](https://blogvigdis.wordpress.com/feed/)
