@@ -44,11 +44,9 @@ PLANET_FEEDS = {
 	"Farerskie szorty": "https://farerskiekadry.pl/szorty/feed",
 	"Finolubna": "https://finolubna.blogspot.com/feeds/posts/default?alt=rss",
 	"Føroyar - Wyspy Owcze pod lupą": "https://havnar.blogspot.com/feeds/posts/default?alt=rss",
-	# "Fińskie smaki": "https://finskiesmaki.blogspot.com/feeds/posts/default?alt=rss",
 	"Gazela w Laponii": "http://gazelawlaponii.pl/feed/",
 	"IceStory": "http://icestory.pl/feed/",  # no longer updated
 	"Kierunek Norwegia": "https://kieruneknorwegia.pl/feed/",
-	"Marchewkowa Skandynawia": "https://www.marchewkowaskandynawia.pl/feed/",
 	"NordSide.blog": "https://nordside.blog/feed/",
 	"Nordic Talking": "https://nordic-talking.pl/feed/",
 	"SKANDIS": "https://blogvigdis.wordpress.com/feed/",
