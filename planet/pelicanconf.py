@@ -42,6 +42,7 @@ PLANET_FEEDS = {
 	"Apetyt na Świat": "https://www.apetytnaswiat.pl/feed/",
 	"Farerskie kadry": "https://farerskiekadry.pl/feed",
 	"Farerskie szorty": "https://farerskiekadry.pl/szorty/feed",
+	"Farerskie kadry na Instagramie": "https://macbre.github.io/farerskie-kadry-feed/instagram.xml",
 	"Finolubna": "https://finolubna.blogspot.com/feeds/posts/default?alt=rss",
 	"Føroyar - Wyspy Owcze pod lupą": "https://havnar.blogspot.com/feeds/posts/default?alt=rss",
 	"Gazela w Laponii": "http://gazelawlaponii.pl/feed/",
