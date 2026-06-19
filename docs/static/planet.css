@@ -111,6 +111,7 @@ nav a {
 /* article */
 article {
 	margin: 5em 0;
+	position: relative;
 }
 
 article div {
@@ -160,4 +161,26 @@ article time {
 	right: 25px;
 	top: 20px;
 	color: #000000aa;
+}
+
+/* images */
+article p img,
+article figure img[itemprop="thumbnailUrl"] {
+    float: right !important;
+    max-width: 350px !important;
+    max-height: 450px !important;
+    margin: 1em !important;
+    height: auto !important;
+    width: auto !important;
+}
+
+article figure img[itemprop="thumbnailUrl"] {
+    transform: rotate(2deg);
+    padding: 5px;
+    border: 1px solid #33C3F066;
+    box-shadow: 0 0 20px #33C3F033;
+}
+
+article:nth-child(even) figure img[itemprop="thumbnailUrl"] {
+    transform: rotate(-2deg);
 }

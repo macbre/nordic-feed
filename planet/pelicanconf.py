@@ -59,11 +59,13 @@ PLANET_FEEDS = {
 	"Utulę Thule": "https://utulethule.pl/feed/",
 }
 
-PLANET_TEMPLATE = 'planet.html.tmpl'
+# PLANET_FEEDS = {"Farerskie szorty": "https://farerskiekadry.pl/szorty/feed","Utulę Thule": "https://utulethule.pl/feed/","Farerskie kadry na Instagramie": "https://macbre.github.io/farerskie-kadry-feed/instagram.xml",} # DEBUG
+
+PLANET_TEMPLATE = 'planet.html.tmpl' # Jinja2 template
 PLANET_PAGE = '../docs/index.html'
 
-PLANET_MAX_ARTICLES = 50
-PLANET_MAX_ARTICLES_PER_FEED = 5
+PLANET_MAX_ARTICLES = 75
+PLANET_MAX_ARTICLES_PER_FEED = 4
 
 # set up logging
 import logging; logging.basicConfig(level=logging.DEBUG)
