@@ -2,6 +2,7 @@
 <head>
 	<title>Nordycka Planeta | Polskie blogi o Północy w jednym miejscu</title>
 
+	<meta charset="utf-8" />
 	<meta property="og:title" content="Nordycka Planeta" />
 	<meta property="og:description" content="Polskie blogi o Północy w jednym miejscu" />
 	<meta property="og:image" content="http://planeta.nordic-talking.pl/static/planet.jpg" />
@@ -40,27 +41,25 @@
 	<div class="container">
 		<p>Naszym celem jest <em>zebranie w jednym miejscu</em> najnowszych <em>wpisów z blogów</em> poświęconych szeroko rozumianej <em>tematyce nordyckiej</em>.</p>
 
-		<nav><ul>
-{% for name, _, url in feeds %}
+		<nav><ul>{% for name, _, url in feeds %}
 			<li><a href="{{ url | e }}" target="_blank">{{ name | e }}</a></li>{% endfor %}
 		</ul></nav>
 	</div>
 </div>
 
-{% for article in articles %}
-<div class="container">
+<div class="container">{% for article in articles %}
 	<article itemscope itemtype="http://schema.org/BlogPosting">
 		<h3 itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><span itemprop="name">{{ article.feed_name | e }}</span></h3>
 		<time itemprop="datePublished" content="{{ article.date | e }}">{{ article.date_iso }}</time>
 		<h1>
 			<a href="{{ article.link | e }}"  itemprop="headline">{{ article.title | e }}</a>
 		</h1>
-		<meta itemprop="author" content="{{ article.author | e }}">
-
+		<meta itemprop="author" content="{{ article.author | e }}">{% if article.get('image') is not none %}
+		<figure><img itemprop="thumbnailUrl" src="{{ article.image | e }}" alt="{{ article.title | e }}" /></figure>{% endif %}
 		<div itemprop="articleBody">{{ article.summary }}</div>
 	</article>
-</div>
 {% endfor %}
+</div>
 
 <footer>
 	<div class="container">
