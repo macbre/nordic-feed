@@ -39,3 +39,4 @@ make
 1. [Szwedzkie Ciekawostki](https://szwedzkieciekawostki.blogspot.com/feeds/posts/default?alt=rss)
 1. [Szwedzka półka](https://www.szwedzkapolka.pl/feed)
 1. [Utulę Thule](https://utulethule.pl/feed/)
+1. [Zew Północy](https://rss.app/feeds/EnCetQ13begpmp8a.xml)
