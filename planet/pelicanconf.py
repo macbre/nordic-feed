@@ -57,6 +57,7 @@ PLANET_FEEDS = {
 	"Szwedzkie Ciekawostki": "https://szwedzkieciekawostki.blogspot.com/feeds/posts/default?alt=rss",
 	"Szwedzka półka": "https://www.szwedzkapolka.pl/feed",
 	"Utulę Thule": "https://utulethule.pl/feed/",
+	"Zew Północy": "https://rss.app/feeds/EnCetQ13begpmp8a.xml",
 }
 
 # PLANET_FEEDS = {"Farerskie szorty": "https://farerskiekadry.pl/szorty/feed","Utulę Thule": "https://utulethule.pl/feed/","Farerskie kadry na Instagramie": "https://macbre.github.io/farerskie-kadry-feed/instagram.xml",} # DEBUG
@@ -66,6 +67,11 @@ PLANET_PAGE = '../docs/index.html'
 
 PLANET_MAX_ARTICLES = 75
 PLANET_MAX_ARTICLES_PER_FEED = 4
+
+# Create the RSS feed for the plane
+PLANET_RSS_FILE = '../docs/feed.xml'
+PLANET_RSS_DESCRIPTION = 'Przegląd wiadomości z krajów nordyckich'
+PLANET_RSS_LINK = 'https://planeta.nordic-talking.pl/'
 
 # set up logging
 import logging; logging.basicConfig(level=logging.DEBUG)
